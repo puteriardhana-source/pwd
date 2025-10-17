@@ -1,0 +1,88 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    background-color: #e5e5ff; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.up-section {
+    background-color: #ffffff; 
+    color: rgb(61, 60, 63); 
+    padding: 50px 0;
+    text-align: center;  
+}
+
+.up-section h1 {
+    margin: 0;
+    font-size: 4em;
+}
+
+form {
+    max-width: 700px; 
+    margin: 30px auto; 
+    padding: 20px;
+    background-color: white; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+legend {
+    color: rgb(61, 60, 63); 
+    font-weight: bold;
+    font-size: 1.4em;
+    padding: 0 10px;
+}
+
+form p {
+    margin-bottom: 15px;
+    color:rgb(61, 60, 63)6;
+}
+
+label {
+    display: block; 
+    margin-bottom: 5px; 
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select {
+    width: 100%; 
+    padding: 12px 20px; 
+    border: 1px solid #ccc;
+    border-radius: 25px; 
+    box-sizing: border-box; 
+    font-size: 1em;
+}
+
+input[type="radio"] {
+    margin-right: 3px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: rgb(61, 60, 63); 
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 14px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 25px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #d9bff1; 
+}
